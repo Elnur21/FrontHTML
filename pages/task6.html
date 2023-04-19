@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+</head>
+<body>
+    <a href="../index.html"><< Go back</a>
+    <main>
+        <center>
+            <h1>Loan Application</h1>
+        </center>
+        <section class="">
+            <center>
+                <form action="../index.html">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <hr>
+                                    <h2>Application Information:</h2>
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="firstName">First Name:</label></td>
+                                <td><input type="text" name="firstName" id="firstName" placeholder="Jhon" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="lastName">Last Name:</label></td>
+                                <td><input type="text" name="lastName" id="lastName" placeholder="Smith" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="email">Email:</label></td>
+                                <td><input type="email" name="email" id="email" placeholder="john.smith@example.com" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="tel">Social Security #:</label></td>
+                                <td><input type="tel" name="tel" id="tel" placeholder="123-45-6789" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="Daytime">Daytime Phone:</label></td>
+                                <td><input type="tel" name="Daytime" id="Daytime" placeholder="202019101829" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="Evening">Evening Phone:</label></td>
+                                <td><input type="tel" name="Evening" id="Evening" placeholder="202019101230" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <hr>
+                                    <h2>Loan Information:</h2>
+                                    <hr>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="type">Loan Type:</label></td>
+                                <td>
+                                    <select name="type" id="type">
+                                        <option value="selected" selected disabled>Select loan type</option>
+                                        <option value="Automobile">Automobile</option>
+                                        <option value="Personal">Personal</option>
+                                        <option value="Student">Student</option>
+                                        <option value="Mortgage">Mortgage</option>
+                                        <option value="Credit-Builder">Credit-Builder</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="Amount">Loan Amount$:</label></td>
+                                <td><input type="number" name="Amount" id="Amount" placeholder="1500" step="10" min="1000" max="2000" required></td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="Description">Description:</label></td>
+                                <td>
+                                    <textarea name="Description" id="Description" cols="25" rows="5" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam?"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="end"><label for="Submit">Submit Application:</label></td>
+                                <td><input type="submit" value="Apply For Loan"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </center>
+        </section>
+    </main>
+</body>
+</html>
